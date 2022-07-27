@@ -1,0 +1,105 @@
+/*div p{
+    color:red
+}*/
+ /*div>p{
+color:red
+}*/
+
+
+/*div+p{
+    color:blue
+}*/
+/*div~p{
+    color:orange
+}*/
+
+
+ /*.font-size{
+    font-size: 20px;
+}
+*/
+/*.text-orange.text-underline{
+    color:orange;
+    text-decoration: underline;
+}*/
+/*.text-red .text-uppercase{
+    color:red;
+    text-transform: uppercase;
+}*/
+
+/*li:first-child{
+    color:red
+}*/
+/*li:last-child{
+    color:purple;
+}*/
+
+/*li:nth-child(2){
+    color:orange
+}*/
+/*li:nth-child(odd){
+    color:brown
+
+
+}*/
+/*li:nth-child(even){
+    color:aquamarine
+
+
+}*/
+li:nth-child(n){
+    color:yellowgreen
+}
+
+
+a:hover{
+    color:orange;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.text-color h5{
+    color:aqua;
+    font-size: 30px;
+}
+.text-color h5:hover{
+    font-size: 50px;
+    color:aquamarine;
+    text-decoration: overline;
+    text-transform: uppercase;
+
+
+}
+[name="text-color-orange"]{
+    color:orange
+}
+/*[title]{
+    color:plum
+}*/
+[paragraf3]{
+    color:yellow
+}
+[title~="isim"]{
+    color:red
+}
+/*a[href^="https"]{
+    color:palegreen;
+}*/
+/*[name]{
+    color:violet
+}*/
+div[class$="test"]{
+    background-color: blue;
+}
+/*a[href*="https"]{
+    color:red
+}*/
+a[href*="https"][href$="com"]{
+    color:red
+}
+/* odd => 1,3,5 tek sayıları */
+/* even => 2,4,6  çift sayıları*>
+
+
